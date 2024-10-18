@@ -1,6 +1,6 @@
 package test
 
-import "github.com/eleztian/type2md/test/ext"
+import "github.com/rkettelerij/type2md/test/ext"
 
 // Pre hook config.
 type Pre struct {

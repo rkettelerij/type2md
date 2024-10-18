@@ -1,4 +1,4 @@
-module github.com/eleztian/type2md
+module github.com/rkettelerij/type2md
 
 go 1.18
 

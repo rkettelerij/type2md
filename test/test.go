@@ -1,8 +1,8 @@
 package test
 
-import "github.com/eleztian/type2md/test/ext"
+import "github.com/rkettelerij/type2md/test/ext"
 
-//go:generate type2md -f ../docs/doc_config.md github.com/eleztian/type2md/test Config
+//go:generate type2md -f ../docs/doc_config.md github.com/rkettelerij/type2md/test Config
 
 // Config doc.
 type Config struct {
