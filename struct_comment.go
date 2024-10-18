@@ -21,6 +21,10 @@ func GetDescribeFromComment(doc *ast.CommentGroup, comment *ast.CommentGroup) st
 	if comment != nil {
 		res += TrimComment(comment.Text())
 	}
+	// skip comments starting with plus sign, as used by kubebuilder
+	if strings.HasPrefix(res, "+") {
+		res = ""
+	}
 
 	return res
 }
